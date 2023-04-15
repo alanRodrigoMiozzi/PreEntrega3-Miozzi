@@ -1,5 +1,9 @@
 .bgNavFoo {
-  background-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+}
+
+body {
+  background: rgb(183, 228, 240);
 }
 
 .img-fluid2 {
@@ -30,10 +34,6 @@
 
 .mgTopf-10 {
   margin-top: 8px;
-}
-
-.backGcol {
-  background-color: rgb(183, 228, 240);
 }
 
 .padR0 {
@@ -71,10 +71,6 @@
 
 .fontFamily2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.backGcolP {
-  background-color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=estilo.css.map */

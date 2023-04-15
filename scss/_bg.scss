@@ -1,0 +1,9 @@
+$bgNavFoobackground-color: rgb(255, 255, 255);
+$backGcolbackground-color: rgb(183, 228, 240);
+
+.bgNavFoo{
+    background: $bgNavFoobackground-color
+}
+body{
+    background: $backGcolbackground-color
+}
