@@ -73,4 +73,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.row {
+  --bs-gutter-x:var(--bs-gutter-x);
+}
+
+.mgTop-160 {
+  margin-top: 160px;
+}
+
 /*# sourceMappingURL=estilo.css.map */
