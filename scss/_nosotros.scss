@@ -1,0 +1,63 @@
+.gridNosotros{display: grid;
+    grid-template-areas: 
+    "header header"
+    "mainIzq mainDer"
+    "footer footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+.mainGrid{  
+@media only screen and (max-width: 768px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:769px) and (max-width:1023px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   display: grid;
+    grid-template-areas: 
+    "mainIzq mainDer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    .mainIzq{grid-area: mainIzq;}
+    .mainDer{grid-area: mainDer;}
+}
+.footerGrid{
+    @media only screen and (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+    @media (min-width:769px) and (max-width:1023px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+     }
+    @media only screen and (min-width: 1024px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    display: grid;
+    grid-template-areas: 
+    "logoN rss contacto"
+    "copyN copyN copyN";
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: auto auto;
+    .logoN{grid-area: logoN;}
+    .rss{grid-area: rss;}
+    .contacto{grid-area: contacto;}
+    .copyN{grid-area: copyN;}
+    
+}
+.justifoo{justify-content: center;}
+
+
+
